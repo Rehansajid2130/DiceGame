@@ -1,0 +1,41 @@
+.Start_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+
+.diceImg_setting{
+    width: 500px;
+}
+.start_content{
+    font-size: 50px;
+    font-weight: 800;
+    font-variant: small-caps;
+}
+.start_content h1{
+    margin: 0px;
+}
+.btn_setting{
+    display: flex;
+    justify-content: end;
+}
+.btn_setting button{
+    font-size: 15px;
+    width: 200px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    white-space: nowrap;
+    font-weight: 600;
+}
+.btn_setting button:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    transition: 0.2s  ;
+}
